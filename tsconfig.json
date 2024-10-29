@@ -1,0 +1,39 @@
+{
+    "include": [
+        "./src/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist"
+    ],
+    "compilerOptions": {
+        "target": "ES2020",
+        "module": "commonjs",
+        "allowJs": true,
+        "types": [
+            "node",
+            "electron"
+        ],
+        "outDir": "./dist/",
+        "rootDirs": [
+            "src"
+        ],
+        "forceConsistentCasingInFileNames": true,
+        "skipLibCheck": true,
+        "noImplicitAny": true,
+        "esModuleInterop": true,
+        "allowUnreachableCode": false,
+        "allowUnusedLabels": false,
+        "alwaysStrict": true,
+        "noFallthroughCasesInSwitch": false,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        // "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "strict": true,
+        "strictBindCallApply": true,
+        "strictFunctionTypes": true,
+        "strictNullChecks": true,
+        "strictPropertyInitialization": true
+    }
+}

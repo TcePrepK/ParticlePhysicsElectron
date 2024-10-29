@@ -1,0 +1,41 @@
+html, body {
+    background: #444;
+    user-select: none;
+}
+
+#record-canvas {
+    display: flex;
+
+    width: 90%;
+
+    margin: 2.5rem;
+}
+
+#start-btn, #stop-btn {
+    display: flex;
+    flex-direction: row;
+    margin: auto auto 0.5rem;
+
+    padding: 0.5em;
+    border: none;
+
+    background: #aaa;
+    border-radius: 0.5em;
+
+    font-size: 1.25rem;
+
+    &:hover {
+        background: #888;
+        cursor: pointer;
+    }
+
+    &:active {
+        background: #8a8;
+        cursor: pointer;
+    }
+}
+
+.preload {
+    animation-duration: 0s !important;
+    transition: background-color 0s, opacity 0s, color 0s, width 0s, height 0s, padding 0s, margin 0s !important;
+}
